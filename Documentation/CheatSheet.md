@@ -1,9 +1,19 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+<details>
+<summary>Details</summary>
+
+- [<a id="cheatsheet"></a>Installers Cheat-Sheet](#a-idcheatsheetainstallers-cheat-sheet)
+
+</details>
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 
 ## <a id="cheatsheet"></a>Installers Cheat-Sheet
 
 Below are a bunch of randomly assorted examples of bindings that you might include in one of your installers.
 
-For more examples, you may also be interested in reading some of the Unit tests (see `Zenject/OptionalExtras/UnitTests` and `Zenject/OptionalExtras/IntegrationTests` directories)
+For more examples, you may also be interested in reading some of the Unit tests (see `Zenject/Tests/UnitTests` and `Zenject/Tests/IntegrationTests` directories)
 
 ```csharp
 

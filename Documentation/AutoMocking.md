@@ -1,5 +1,21 @@
+# Auto-Mocking
 
-## <a id="auto-mocking-using-moq"></a>Auto-Mocking
+## Table of contents
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+<details>
+<summary>Details</summary>
+
+- [Mocking](#mocking)
+- [Using Moq](#using-moq)
+- [Using NSubstitute](#using-nsubstitute)
+  - [Auto values](#auto-values)
+  - [Setting return values](#setting-return-values)
+
+</details>
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+## Mocking
 
 > Test double, mock, stub, fake or spy? 
 > For simplicity this documentation is using the word "mock" for all.
@@ -55,8 +71,7 @@ Note that by default, Auto-mocking is not enabled in Zenject.  If you wish to us
 
 ## Using Moq
 
-If you wish to use Moq then you need to go to your Zenject install directory and extract the contents of ``Zenject\OptionalExtras\AutoMoq.zip`` into that same directory.
-The extracted folder should then be moved to ``Zenject\OptionalExtras\TestFrameWork\Editor``.
+If you wish to use Moq then you need to install [Moq](https://www.nuget.org/packages/moq).
 
 Note that there are multiple versions of Moq.dll included in the zip and that you should use the one that targets the Scripting Runtime Version that you have configured in your player settings. Also note that if you're using Scripting Runtime Version 3.5, that you might also need to change your "Api Compatibility Level" from ".NET 2.0 Subset" to ".NET 2.0"
 
@@ -78,8 +93,7 @@ For more details, see the documentation for [Moq](https://github.com/moq/moq4)
 
 ## Using NSubstitute
 
-If you wish to use NSubstitute then you need to go to your Zenject install directory and extract the contents of ``Zenject\OptionalExtras\AutoSubstitute.zip``.
-The extracted folder should then be moved to ``Zenject\OptionalExtras\TestFrameWork\Editor``.
+If you wish to use NSubstitute then you need to install [NSubstitute](https://www.nuget.org/packages/NSubstitute/)
 
 > Mock, stub, fake, spy, test double? Strict or loose? Nah, just substitute for the type you need!
 

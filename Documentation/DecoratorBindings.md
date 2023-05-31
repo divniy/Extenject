@@ -1,9 +1,25 @@
+# Decorator Bindings
 
-## <a id="intro"></a>Decorator Bindings
+## Table Of Contents
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+<details>
+<summary>Details</summary>
+
+- [Introduction](#introduction)
+- [Example](#example)
+- [Binding Syntax](#binding-syntax)
+
+</details>
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+
+## Introduction 
 
 Another feature of Zenject that can open up interesting design possibilities is decorator bindings.  This allows you to easily implement the <a href="https://en.wikipedia.org/wiki/Decorator_pattern">decorator pattern</a>.
 
-## <a id="example"></a>Example
+## Example
 
 As an example, let's say we have a class that contains stats for a given enemy in our game, and that we have two enemies (an orc and a demon):
 
@@ -171,7 +187,7 @@ public void InstallBindings()
 }
 ```
 
-## <a id="binding-syntax"></a>Binding Syntax
+## Binding Syntax
 
 <pre>
 Container.Decorate&lt;<b>ContractType</b>&gt;()
@@ -190,5 +206,3 @@ Where:
 The other values have the same effect described <a href="../README.md#binding">here</a>.
 
 Note that we can define any From construction method we want here - we don't have to default to FromNew like in the examples above.
-
-
