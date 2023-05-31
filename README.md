@@ -11,8 +11,10 @@
 
 This project is a fork of [Zenject](https://github.com/modesttree/zenject) with the goal of being actively maintained.
 Install by Package Manager:
-`https://github.com/divniy/Extenject.git?path=UnityProject/Assets/Plugins/Zenject/Source#9.3.2`
-
+- Source only: 
+  - `https://github.com/divniy/Extenject.git?path=UnityProject/Assets/Plugins/Zenject#9.3.2`
+- With tests and ability to import examples: 
+  - `https://github.com/divniy/Extenject.git?path=UnityProject/Assets/Plugins/Zenject/Source#9.3.2`
 ## Table Of Contents
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
